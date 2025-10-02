@@ -2,15 +2,15 @@
   "compilerOptions": {
     "target": "ESNext",
     "useDefineForClassFields": true,
-    "lib": ["ES2015", "DOM", "DOM.Iterable", "ESNext"],   // ✅ added ES2015
+    "lib": ["ES2015", "DOM", "DOM.Iterable", "ESNext"],
     "allowJs": false,
     "skipLibCheck": true,
     "esModuleInterop": false,
     "allowSyntheticDefaultImports": true,
     "strict": true,
     "forceConsistentCasingInFileNames": true,
-    "module": "ESNext",
-    "moduleResolution": "Node16",                         // ✅ fixes plugin-react resolution
+    "module": "Node16",                // ✅ changed
+    "moduleResolution": "Node16",      // ✅ matches module
     "resolveJsonModule": true,
     "isolatedModules": true,
     "noEmit": true,
