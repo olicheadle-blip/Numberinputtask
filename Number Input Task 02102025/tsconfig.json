@@ -13,8 +13,8 @@
     "moduleResolution": "Node",
     "resolveJsonModule": true,
     "isolatedModules": true,
-    "noEmit": true,
-    "jsx": "react-jsx"  // ✅ use the new JSX transform (no need for `import React`)
+    "noEmit": true,                // ✅ noEmit is fine here (Vite handles emit)
+    "jsx": "react-jsx"             // ✅ new JSX transform, no need for `import React`
   },
   "include": ["src"],
   "references": [{ "path": "./tsconfig.node.json" }]
