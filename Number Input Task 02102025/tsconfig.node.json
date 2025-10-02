@@ -1,11 +1,12 @@
 {
   "compilerOptions": {
     "composite": true,
-    "module": "Node16",                // ✅ matches moduleResolution
-    "moduleResolution": "Node16",
+    "module": "ESNext",
+    "moduleResolution": "Node",
     "allowSyntheticDefaultImports": true,
     "lib": ["ES2015"],
-    "noEmit": false
+    "noEmit": false,
+    "types": ["node"]
   },
   "include": ["vite.config.ts"]
 }
