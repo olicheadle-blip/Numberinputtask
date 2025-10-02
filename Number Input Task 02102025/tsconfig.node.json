@@ -4,9 +4,10 @@
     "module": "ESNext",
     "moduleResolution": "Node",
     "allowSyntheticDefaultImports": true,
-    "lib": ["ES2015"],
-    "noEmit": false,
-    "types": ["node"]
+    "lib": ["ES2020", "DOM", "DOM.Iterable", "WebWorker"],
+    "types": ["node"],
+    "skipLibCheck": true,
+    "noEmit": false
   },
   "include": ["vite.config.ts"]
 }
