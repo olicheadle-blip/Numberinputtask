@@ -9,12 +9,13 @@
     "allowSyntheticDefaultImports": true,
     "strict": true,
     "forceConsistentCasingInFileNames": true,
-    "module": "Node16",                // ✅ changed
-    "moduleResolution": "Node16",      // ✅ matches module
+    "module": "ESNext",             // back to normal
+    "moduleResolution": "Node",     // back to normal
     "resolveJsonModule": true,
     "isolatedModules": true,
     "noEmit": true,
-    "jsx": "react-jsx"
+    "jsx": "react-jsx",
+    "types": ["node"]               // ✅ add Node types
   },
   "include": ["src"],
   "references": [{ "path": "./tsconfig.node.json" }]
